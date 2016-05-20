@@ -9,6 +9,19 @@ eventually.
 
 > Eclipse Guys: If you want more contributions, maybe start by actually documenting trivial things!
 
+Goals
+-----
+- [ ] Create a "do nothing" server based off the ["Generic Server"][wtp-doc-generic-server]
+- [ ] Create a "publisher" that works against the Tomcat Manager application
+      This would use hardcoded settings for URL, username, and password
+- [ ] Create a "UI" component so that the tomcat can be configuration
+
+Tools
+-----
+
+Likely this project will use Tycho, as that seems to be the easiest to actually automate. This way it should be possible
+to produce an update site somewhere, so this plugin(s) can be consumed easily.
+
 Notes
 =====
 
