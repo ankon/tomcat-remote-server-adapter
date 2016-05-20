@@ -12,8 +12,7 @@ eventually.
 Goals
 -----
 - [ ] Create a "do nothing" server based off the ["Generic Server"][wtp-doc-generic-server]
-- [ ] Create a "publisher" that works against the Tomcat Manager application
-      This would use hardcoded settings for URL, username, and password
+- [ ] Create a "publisher" that works against the Tomcat Manager application. This would use hardcoded settings for URL, username, and password
 - [ ] Create a "UI" component so that the tomcat can be configuration
 
 Tools
@@ -25,10 +24,10 @@ to produce an update site somewhere, so this plugin(s) can be consumed easily.
 Notes
 =====
 
-1. Cloning the base modules:
-   ~~~~
-   git clone --recursive http://git.eclipse.org/gitroot/webtools/webtools.releng.aggregator.git
-   ~~~~
+Cloning the base modules:
+~~~~
+git clone --recursive http://git.eclipse.org/gitroot/webtools/webtools.releng.aggregator.git
+~~~~
 
 
 
